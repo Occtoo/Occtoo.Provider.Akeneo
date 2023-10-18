@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Occtoo.Akeneo.Function": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7025",
+      "launchBrowser": false
+    }
+  }
+}

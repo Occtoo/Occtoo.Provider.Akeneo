@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "logging": {
+    "fileLoggingMode": "debugOnly",
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "enablePerformanceCountersCollection": false
+    },
+    "logLevel": {
+      "default": "Warning",
+      "Host.Results": "Information",
+      "Host.Aggregator": "Warning"
+    }
+  },
+  "extensions": {
+    "durableTask": {
+      "hubName": "%HubName%"
+    }
+  }
+}
