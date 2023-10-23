@@ -1,5 +1,5 @@
 
-# Shopify Provider 
+# Akeneo Provider 
 This project gives an example on how to create a Provider from [Akeneo](https://www.akeneo.com/) to Occtoo onboarding 
 
 **Docs:** https://docs.occtoo.com/docs/get-started/provide-data
